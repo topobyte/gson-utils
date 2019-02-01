@@ -22,6 +22,7 @@ repositories {
 }
 
 dependencies {
+    compile 'com.google.code.gson:gson:2.8.5'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
